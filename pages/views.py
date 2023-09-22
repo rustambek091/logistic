@@ -15,7 +15,7 @@ class About(TemplateView):
 class Contact(TemplateView):
     template_name = 'contact.html'
 
-class Services(Services):
+class Services(TemplateView):
     template_name = 'Services.html'
 # def Services(request):
 #     servis = Service.objects.all()
